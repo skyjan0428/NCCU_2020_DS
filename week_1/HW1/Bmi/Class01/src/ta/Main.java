@@ -13,7 +13,7 @@ public class Main {
 	}
 	
 	public static double getBMI(String[] data) {
-		// calculate the bmi
+		// 1. calculate the bmi 
 		return 0;
 	}
 	
