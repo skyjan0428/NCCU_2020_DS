@@ -20,6 +20,7 @@ public class Main {
 	        		float weight = sc.nextFloat();
 	        		Keyword k = new Keyword(name, count, weight);
 	        		kLst.add(k);
+	        		System.out.println("Done");
 	        	}
 	        		break;
 	        	
@@ -54,7 +55,7 @@ public class Main {
         	    case "outputFirstN":
         	    {
         	    	int n = sc.nextInt();
-        	    	kLst.outputFirstN(n);        		
+        	    	kLst.outputFirstN(n);
         	    }
         	    	break;
         	    	
@@ -65,7 +66,8 @@ public class Main {
         	    case "deleteIndex":
         	    {
         	    	int index = sc.nextInt();
-        	    	kLst.deleteIndex(index);       		
+        	    	kLst.deleteIndex(index);   
+        	    	
         	    }
         	    	break;
         	    	
