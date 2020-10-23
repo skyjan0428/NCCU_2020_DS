@@ -9,15 +9,14 @@ Done
 Done
 38.5
 Done
-[MIS,2,1.2]
-[UCSB,2,2.2]
+[MIS,2,1.2] [UCSB,2,2.2]
 [Yu,5,1.2]
 Done
 [Badminton,4,2.3]
 Done
-[MIS,2,1.2]
+[UCSB,2,2.2]
 InvalidOperation
 Done
+InvalidOperation
 Done
-[Structure,4,2.1] [MIS,2,1.2] [UCSB,2,2.2]
-Done
+
