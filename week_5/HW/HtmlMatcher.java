@@ -71,10 +71,6 @@ public class HtmlMatcher {
 				//This is an open tag, so simply push it into stack
 				//5.**here
 				
-			}else if(indexOfSlash==tagName.length()-1){//
-				//If there is a "/" in the end of tagName(tagName is a open tag,and it also a close tag) 
-				indexOfOpen = indexOfClose;
-				continue;
 			}
 			else{  	
 				//This is an close tag, so we should compare it to the topmost tag in the stack
