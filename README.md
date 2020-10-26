@@ -1,5 +1,7 @@
-# NCCU 2019 Data_Structure #
+# NCCU 2020 Data_Structure #
 
+分組名單
+https://docs.google.com/spreadsheets/d/1qZn0-h5BWOZRu0YMWflynhkWZ0mfkJD5Cjk18M9_biI/edit?usp=sharing
 
 # tomcat下載 #
 
