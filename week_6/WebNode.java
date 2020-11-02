@@ -23,7 +23,7 @@ public class WebNode {
 		
 		//3. nodeScore += all children¡¦s nodeScore 
 		for(WebNode child : children){
-			
+
 		}
 		
 				

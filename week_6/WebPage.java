@@ -1,5 +1,4 @@
 
-
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -17,8 +16,8 @@ public class WebPage {
 	
 	public void setScore(ArrayList<Keyword> keywords) throws IOException{
 		score = 0;
-		for(Keyword k : keywords){			
-			score += counter.countKeyword(k.name)* k.weight;	
+		for(Keyword k : keywords){		
+			score += k.weight*counter.countKeyword(k.name);	
 		}
 	}
 	

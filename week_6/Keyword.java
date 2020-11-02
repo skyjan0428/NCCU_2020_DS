@@ -1,5 +1,4 @@
 
-
 public class Keyword {
 	public String name;
 	public double weight;

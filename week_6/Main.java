@@ -19,6 +19,7 @@ public class Main {
 		tree.root.addChild(new WebNode(new WebPage("http://www3.nccu.edu.tw/~yuf/course.htm","Course")));
 		//read 2 Yu 1.2 Fang 1.8 
 		Scanner scanner = new Scanner(System.in);
+		
 		while(scanner.hasNextLine()){
 			int numOfKeywords = scanner.nextInt();//2
 			ArrayList<Keyword> keywords = new ArrayList<Keyword>();
@@ -38,3 +39,29 @@ public class Main {
 	}
 
 }
+
+
+
+
+
+/*
+ * 
+Input:
+2
+Fang 0.5
+Yu 0.6
+
+Output:
+
+(Fang Yu,131.10000000000002
+	(Publication,110.5)
+	(Project,12.1
+		(Stranger,0.0)
+	)
+	(Biography,2.8
+		(Vlab,0.0)
+	)
+	(Course,2.3)
+)
+
+*/

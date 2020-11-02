@@ -1,5 +1,4 @@
 
-
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -22,7 +21,7 @@ public class WebTree {
 		}
 		//5.setNode score of startNode
 		
-	}
+		}
 	
 	public void eularPrintTree(){
 		eularPrintTree(root);
@@ -35,7 +34,7 @@ public class WebTree {
 		//print "("
 		System.out.print("(");
 		//print "name","score"
-		System.out.print(startNode.webPage.name+","+startNode.nodeScore);
+		System.out.print(startNode.webPage.name+","+startNode.nodeScore+" :"+nodeDepth);
 		
 		//7.print child preorder
 		for(WebNode child : startNode.children){
@@ -46,7 +45,14 @@ public class WebTree {
 		System.out.print(")");
 		
 		/*for example
-		 (Publication,286.2)
+		(Soslab,459.0
+				(Publication,286.2)
+				(Projects,42.0
+						(Stranger,0.0)
+				)
+				(MEMBER,12.0)
+				(Course,5.3999999999999995)
+		)
 		*/
 		if(startNode.isTheLastChild()) System.out.print("\n" + repeat("\t", nodeDepth-2));
 		
