@@ -1,0 +1,9 @@
+Done
+Done
+Done
+Done
+[UCSB,1,11.9]
+Done
+Done
+Done
+[NCCU,2,0.6][Fang,3,1.2][MIS,4,2.2][Badminton,5,0.6][Yu,5,1.8]
