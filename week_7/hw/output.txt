@@ -2,8 +2,8 @@ Done
 Done
 Done
 Done
-[UCSB,1,11.9]
+[Fang,3,1.2]
 Done
+[Fang,3,1.2]
 Done
-Done
-[NCCU,2,0.6][Fang,3,1.2][MIS,4,2.2][Badminton,5,0.6][Yu,5,1.8]
+[MIS,4,2.2][Badminton,5,0.6][UCSB,1,11.9][NCCU,2,0.6][Yu,5,1.8]
