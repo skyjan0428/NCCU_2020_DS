@@ -38,9 +38,7 @@ public class HanoiTower {
 				
 			}
 		};
-		for(int i=numOfDisks; i>=1; i--) {
-			rodA.push(i);
-		}
+		
 		this.rodB = new MyStack<Integer>() {
 			public String toString() {
 				return "B";
