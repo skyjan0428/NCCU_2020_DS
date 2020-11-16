@@ -1,4 +1,3 @@
-package edu.nccu.misds.hanoi;
 
 
 public class HanoiTower {
