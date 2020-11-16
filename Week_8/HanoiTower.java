@@ -46,10 +46,7 @@ public class HanoiTower {
 		
 	}
 
-	/**
-	 * @TODO: return an integer that represent how many steps we need to
-	 *        complete this hanoi tower.
-	 */
+	
 	public int getTimes() {
 		int totaltimes = (int)Math.pow(2, this.numOfDisks)-1;
 		return totaltimes;
