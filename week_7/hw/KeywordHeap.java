@@ -25,8 +25,8 @@ public class KeywordHeap {
 	
 	public void removeMin(){
 		//TODO: write remove minimal element logic here...
-		heap.poll();
-		System.out.println("Done");		
+		
+		System.out.println(heap.poll());		
 	}
 	
 	public void output(){
