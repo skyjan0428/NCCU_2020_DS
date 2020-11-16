@@ -1,5 +1,6 @@
 
 
+
 public class HanoiTower {
 	private MyStack<Integer> rodA;
 	private MyStack<Integer> rodB;
@@ -30,9 +31,32 @@ public class HanoiTower {
 	public void refresh(int numOfDisks) {
 		
 	}
+	public void initStacks() {
+		this.rodA = new MyStack<Integer>() {
+			public String toString() {
+				return "A";
+				
+			}
+		};
+		for(int i=numOfDisks; i>=1; i--) {
+			rodA.push(i);
+		}
+		this.rodB = new MyStack<Integer>() {
+			public String toString() {
+				return "B";
+				
+			}
+		};;
+		this.rodC = new MyStack<Integer>() {
+			public String toString() {
+				return "C";
+				
+			}
+		};;
+	}
 
 	public void start() {
-		execute(this.numOfDisks, rodA, rodB, rodC);
+		execute(this.numOfDisks, rodA, rodC, rodB);
 	}
 
 	/**
@@ -45,7 +69,10 @@ public class HanoiTower {
 		
 	}
 
-	
+	/**
+	 * @TODO: return an integer that represent how many steps we need to
+	 *        complete this hanoi tower.
+	 */
 	public int getTimes() {
 		int totaltimes = (int)Math.pow(2, this.numOfDisks)-1;
 		return totaltimes;
