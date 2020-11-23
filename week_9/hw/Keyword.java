@@ -1,4 +1,4 @@
-package ta;
+
 
 public class Keyword {
 	public String name;
