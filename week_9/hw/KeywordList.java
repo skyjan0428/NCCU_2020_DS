@@ -21,7 +21,7 @@ public class KeywordList {
 	
 	
 	private void quickSort(int leftbound, int rightbound){
-		//implement quickSort algorithm
+		//1. implement quickSort algorithm
 	}
 	
 	
