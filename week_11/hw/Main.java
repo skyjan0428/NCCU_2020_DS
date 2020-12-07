@@ -1,14 +1,15 @@
-package ta;
-
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-		KeywordList list = new KeywordList();
+		KeywordList lst = new KeywordList();
 		
-		Scanner scanner = new Scanner(System.in);
+		File file = new File("input.txt");
+		Scanner scanner = new Scanner(file);
 		while(scanner.hasNextLine()){
 			String operation = scanner.next();
 			
