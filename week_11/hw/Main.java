@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-		KeywordList lst = new KeywordList();
+		KeywordList list = new KeywordList();
 		
 		File file = new File("input.txt");
 		Scanner scanner = new Scanner(file);
